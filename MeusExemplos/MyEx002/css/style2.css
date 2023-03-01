@@ -1,0 +1,23 @@
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+.ichigo {
+  width: 100px;
+}
+ol {
+  text-align: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+.voltar:hover {
+  transform: scale(1.1);
+}
+.back {
+  text-align: center;
+  margin-right: 20px;
+  transition: 3s all ease-in-out;
+}

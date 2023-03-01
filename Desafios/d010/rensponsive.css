@@ -1,0 +1,31 @@
+@media (max-width: 965px) {
+    body{
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100vw;
+    }
+    iframe{
+        width: 700px;
+        height: 450px;
+    }
+    .div-extra{
+        width: 500px;
+    }
+    .versoes{
+        width: 200px;
+    }
+    .div-lista-extra{
+        justify-content:left;
+        text-align: justify;
+    }
+}
+@media (max-width:650px){
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+    .div-extra{
+        width: 400px;
+    }
+}
