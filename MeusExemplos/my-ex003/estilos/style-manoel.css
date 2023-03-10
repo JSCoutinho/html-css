@@ -23,7 +23,7 @@ main{
     display: block;
 
     max-width: 800px;
-    min-width: 400px;
+    min-width: 350px;
     height: fit-content;
 
     background-color: white;
