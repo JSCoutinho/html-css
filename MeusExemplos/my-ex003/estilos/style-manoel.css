@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root{
+    --fonte: "Work Sans", sans-serif;
+    --fino: 300;
+    --normal: 400;
+    --bold: 600;
+    --verde1-escuro: #124611;
+    --verde1-claro: #3E8914;
+    --verde2-escuro: #3da35d;
+    --verde2-claro: #96e072;
+}
+
+body{
+    background-color: var(--verde2-claro);
+}
+
+main{
+    box-shadow: 0px 6px 7px 1px rgba(0, 0, 0, 0.404);
+
+    text-align: justify;
+    line-height: 1.5em;
+    display: block;
+
+    max-width: 800px;
+    min-width: 400px;
+    height: fit-content;
+
+    background-color: white;
+
+    margin: auto;
+}
+
+main .img-capa{
+    background-image: url("https://img.freepik.com/free-vector/green-abstract-geometric-wallpaper_52683-29623.jpg");
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    text-align: center;
+
+    padding: 120px;
+    margin: 0px;
+}
+
+main .img-capa h1{
+    width: 400px;
+    padding: 10px;
+    padding-right: 5px;
+
+    margin: -110px;
+
+    margin-top: 10px;
+    margin-bottom: -60px;
+
+    background-color: rgba(0, 0, 0, 0.356);
+}
+
+main article{
+    padding: 10px;
+}
+
+main article h2{
+    color: #3da35d;
+    font-weight: bold;
+
+    padding: 10px 0px;
+}
+
+main article iframe{
+    width: 100%;
+    height: 50vw;
+}
+
+.video{
+    background-color: var(--verde1-escuro);
+    padding-bottom: 59%;
+    position: relative;
+}
+
+.video > iframe{
+     position: absolute;
+     top: 5%;
+     left: 5%;
+     width: 90%;
+     height: 90%;
+}
