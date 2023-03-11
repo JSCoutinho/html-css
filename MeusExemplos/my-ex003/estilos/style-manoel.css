@@ -45,12 +45,13 @@ main .img-capa{
 }
 
 main .img-capa h1{
+    font-size: 30px;
+
     width: 380px;
     padding: 10px;
     padding-right: 5px;
 
     margin: -110px;
-
     margin-top: 10px;
     margin-bottom: -60px;
 
