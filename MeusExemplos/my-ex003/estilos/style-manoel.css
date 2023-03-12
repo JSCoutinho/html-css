@@ -29,7 +29,7 @@ main{
     background-color: white;
 
     margin: auto;
-}
+} 
 
 main .img-capa{
     background-image: url("https://img.freepik.com/free-vector/green-abstract-geometric-wallpaper_52683-29623.jpg");
@@ -45,7 +45,7 @@ main .img-capa{
 }
 
 main .img-capa h1{
-    font-size: 30px;
+    font-size: 28px;
 
     width: 380px;
     padding: 10px;
