@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela{
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut laboriosam obcaecati quia animi fugiat earum suscipit dolores corporis vitae, dolor atque explicabo est, amet pariatur minus temporibus magnam, deserunt reiciendis.</p>
+
+    <ul>
+        <li>
+            <a target="frame" href="paginas-extra/pagina001.html">Primeira Página</a>
+        </li>
+        <li>
+            <a target="frame" href="paginas-extra/pag002.html">Segunda Página</a>
+        </li>
+        <li>
+            <a target="frame" href="paginas-extra/pag003.html">Terceira Página</a>
+        </li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus officiis magni nemo consequatur nulla commodi, quis quam numquam officia quas! Aperiam veniam nam quisquam. Asperiores facere provident deleniti ut vitae numquam est illo qui ipsum explicabo molestiae minus nobis modi cum, et doloribus? Eius consectetur expedita mollitia perspiciatis quia, fuga, sed vero harum rem autem pariatur molestias odio incidunt accusamus velit rerum quisquam! In enim quas architecto quod rem est cupiditate praesentium error consequuntur, officiis inventore culpa accusamus explicabo temporibus nihil illum quasi, odio laudantium, quos suscipit asperiores ratione dicta necessitatibus. Consequatur tenetur quidem ab quam consectetur eaque saepe a!</p>
+
+    <iframe name="frame" id="tela" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque libero tempore nostrum. Similique recusandae voluptatem ratione quidem facilis? Eligendi quia amet veniam perspiciatis vel odit voluptatum sit, sed nostrum aspernatur. </p>">
+        <p>Infelizmente seu navegador não é compatível com isso aqui</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque libero tempore nostrum. Similique recusandae voluptatem ratione quidem facilis? Eligendi quia amet veniam perspiciatis vel odit voluptatum sit, sed nostrum aspernatur.</p>
+</body>
+</html>
